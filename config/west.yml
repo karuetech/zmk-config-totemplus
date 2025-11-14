@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: joaopedropio                          # <--- add these
+      url-base: https://github.com/joaopedropio   # <---
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: snake-module                          # <--- and these
+      remote: joaopedropio                        # <---
+      revision: master                            # <---
   self:
     path: config
