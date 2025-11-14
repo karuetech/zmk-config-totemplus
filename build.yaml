@@ -10,10 +10,3 @@ include:
   - board: seeeduino_xiao_ble
     shield: totem_dongle
     snippet: zmk-usb-logging
-  - board: nice_nano_v2                                 
-    shield: totem_dongle_snake snake_adapter  
-    artifact-name: totem_qwerty_dongle_snake   
-  - board: nice_nano_v2
-    shield: settings_reset
-    format: reset
-    artifact-name: firmware_reset_snake_display_dongle
