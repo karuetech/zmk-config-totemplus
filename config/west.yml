@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: joaopedropio                          # <--- add these
       url-base: https://github.com/joaopedropio   # <---
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,8 @@ manifest:
     - name: snake-module                          # <--- and these
       remote: joaopedropio                        # <---
       revision: master                            # <---
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
   self:
     path: config
